@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/header"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.macjay.pulltorefresh.PullToRefreshListView
+        android:layout_below="@id/header"
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#191919"
+        android:layout_marginTop="10px"
+        android:scrollbars="none" >
+    </com.macjay.pulltorefresh.PullToRefreshListView>
+
+    <LinearLayout
+        android:id="@+id/noData"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/no_data"
+            android:layout_width="96dp"
+            android:layout_height="96dp" />
+
+        <TextView
+            android:textSize="12sp"
+            android:text="@string/error_no_record"
+            android:layout_marginTop="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>

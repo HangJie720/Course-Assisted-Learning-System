@@ -1,0 +1,17 @@
+<resources>
+
+    <!--扫二维码-->
+    <string name="add_contacts">保存</string>
+    <string name="show_scan">扫描详情</string>
+    <string name="scan_name">姓名     : </string>
+    <string name="scan_phone">移动电话 : </string>
+    <string name="scan_work">工作电话 : </string>
+    <string name="scan_home">家庭电话 : </string>
+    <string name="scan_email">电子邮箱 : </string>
+    <string name="scan_note">备注     : </string>
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+
+    <!--通用字符串-->
+    <string name="back">返回</string>
+    <string name="share">分享</string>
+</resources>

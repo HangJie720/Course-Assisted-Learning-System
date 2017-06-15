@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SweetAlertDialog</string>
+    <string name="dialog_default_title">Here\'s a message!</string>
+    <string name="dialog_ok">确定</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_login">登录</string>
+    <string name="dialog_title">检测到异常</string>
+    <string name="loading">正在加载...</string>
+
+    <string name="dialog_cancel_ship">"配送已开始，请联系配送人员，说明取消原因，并由配送人员进行'取消运单'操作"</string>
+    <string name="dialog_recharge">店铺余额不足，请联系客服充值</string>
+    <string name="dialog_call">呼叫</string>
+</resources>

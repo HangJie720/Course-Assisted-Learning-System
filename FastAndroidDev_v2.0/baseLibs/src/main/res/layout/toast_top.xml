@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:background="@color/toast_top"
+    android:orientation="vertical"
+    android:paddingLeft="10sp" >
+
+    <ImageView
+        android:id="@+id/warn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:src="@mipmap/warn" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/warn"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:shadowColor="#BB000000"
+        android:text="123456"
+        android:textAppearance="@style/TextAppearance.Small"
+        android:textColor="#000" />
+
+</RelativeLayout>

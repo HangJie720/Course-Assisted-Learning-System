@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bg_color">#ececec</color>   //   主背景颜色
+
+    <color name="home_tab">#f8f8f8</color>
+    <color name="textColor">#3e3e3e</color>
+
+    <color name="holo_blue">#ff33e5b5</color>
+
+    <color name="white">#FFFFFF</color><!--白色 -->
+    <color name="titleBlue">#4876FF</color><!--天兰色 -->
+    <color name="gray">#808080</color><!--灰色 -->
+</resources>

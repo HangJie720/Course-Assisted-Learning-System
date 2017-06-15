@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/header_of_user_center"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/header_bg">
+
+        <Button
+            android:id="@+id/show_scan_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="@string/back"
+            android:drawableLeft="@drawable/arrow"
+            android:drawablePadding="5dp"
+            android:background="@null"
+            android:onClick="viewClick"
+            android:textColor="#FFF"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/show_scan_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="@string/share"
+            android:paddingTop="25dp"
+            android:drawablePadding="5dp"
+            android:background="@null"
+            android:onClick="viewClick"
+            android:textColor="#FFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/show_scan"
+            android:paddingTop="25dp"
+            android:textColor="#FFF"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_below="@id/header_of_user_center"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="5sp"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:textColor="@color/deep_gray"
+        android:id="@+id/show_scan_info"
+        android:autoLink="all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_below="@id/header_of_user_center"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="10sp"
+        android:id="@+id/show_scan_contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="18sp"
+            android:lineSpacingExtra="10dp"
+            android:textColor="@color/black"
+            android:id="@+id/show_scan_name"
+            android:text="@string/scan_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_below="@id/show_scan_name"
+            android:textSize="18sp"
+            android:lineSpacingExtra="10dp"
+            android:text="@string/scan_phone"
+            android:textColor="@color/black"
+            android:id="@+id/show_scan_phone"
+            android:autoLink="phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="18sp"
+            android:lineSpacingExtra="10dp"
+            android:textColor="@color/black"
+            android:id="@+id/show_scan_work"
+            android:autoLink="phone"
+            android:text="@string/scan_work"
+            android:layout_below="@id/show_scan_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="18sp"
+            android:lineSpacingExtra="10dp"
+            android:textColor="@color/black"
+            android:id="@+id/show_scan_home"
+            android:autoLink="phone"
+            android:text="@string/scan_home"
+            android:layout_below="@id/show_scan_work"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:id="@+id/show_scan_email"
+            android:autoLink="email"
+            android:lineSpacingExtra="10dp"
+            android:text="@string/scan_email"
+            android:layout_below="@id/show_scan_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:id="@+id/show_scan_note"
+            android:autoLink="web"
+            android:lineSpacingExtra="10dp"
+            android:text="@string/scan_note"
+            android:layout_below="@id/show_scan_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
