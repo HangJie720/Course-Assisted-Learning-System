@@ -1,2 +1,4 @@
 # Course-Assisted-Learning-System
 we provide the design scheme of the course assistance learning system on android platform on the basis of exploring the key technology related to the development of android and SQLite database, and successfully exploit a software called “The Course Assistance Learning System” based on the Android 6.0 version eventually. Due to the people’s operating habits and particular demands, the course table is made to expand the application to the user’s mobile terminal equipment, and to provide auxiliary functions about some course information management. Therefore, students can easily view the course at any time, download resources, and further improve the efficiency of students’ learning. 
+
+在探讨Android开发相关关键技术及SQLite数据库技术的基础上，给出了安卓平台上课程辅助学习系统的设计方案，并最终基于Android 6.0版本成功开发了一个“课程辅助学习系统”，根据学生的使用习惯和实际需求，将课程表做成应用程序拓展到用户的移动终端设备上，并且提供一些课程相关信息管理等辅助功能，方便在校学生可以随时随地查看课程、下载资源，进而充分提高学生的学习效率。
